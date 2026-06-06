@@ -1,118 +1,77 @@
-base_info:
-  primary_color: "#0066cc"
-  title: Orangeer's Blog
-  author: 哦润吉
-  avatar: /images/Feibajiubi.jpg
-  logo: /images/logo.svg
-  favicon: /images/logo.svg
+# Hexo Configuration
 
-menu:
-  home: /
-  archives: /archives
+title: Orangeer's Blog
+subtitle: 学习笔记与技术博客
+description: 记录学习和技术分享
+keywords: 学习, 技术, 北科
+author: 哦润吉
+language: zh-CN
+timezone: Asia/Shanghai
 
-first_screen:
-  enable: false
-  background_img: /images/bg.svg
-  background_img_dark: /images/bg.svg
-  description: Keep writing and Keep loving.
-  hitokoto: false
+url: https://blog-n2o.pages.dev/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
 
-social_contact:
-  enable: false
-  links:
-    github:
-    weixin:
-    qq:
-    weibo:
-    zhihu:
-    twitter:
-    x:
-    facebook:
-    email:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
 
-scroll:
-  progress_bar: false
-  percent: false
-  hide_header: true
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
-home:
-  announcement:
-  category: false
-  tag: false
-  post_datetime: updated
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
 
-post:
-  author_badge:
-    enable: true
-    level_badge: true
-    custom_badge: ["One", "Two", "Three"]
-  word_count:
-    wordcount: false
-    min2read: false
-  datetime_format: "YYYY-MM-DD HH:mm:ss"
-  copyright_info: false
-  share: false
-  reward:
-    enable: false
-    img_link:
-    text:
-    icon:
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
-code_block:
-  tools:
-    enable: false
-    style: default
-  highlight_theme: default
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
 
-toc:
-  enable: false
-  number: false
-  expand_all: false
-  init_open: true
-  layout: right
+default_category: uncategorized
+category_map:
+tag_map:
+meta_generator: true
 
-website_count:
-  busuanzi_count:
-    enable: false
-    site_uv: false
-    site_pv: false
-    page_pv: false
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'mtime'
 
-local_search:
-  enable: false
-  preload: false
+per_page: 10
+pagination_dir: page
 
-comment:
-  enable: false
-  use: valine
+include:
+exclude:
+ignore:
 
-rss:
-  enable: false
+theme: keep
 
-lazyload:
-  enable: false
-
-cdn:
-  enable: false
-  provider: cdnjs
-
-pjax:
-  enable: false
-
-footer:
-  since: 2020
-  word_count: false
-  site_deploy:
-    enable: false
-    provider: cloudflare
-    url:
-  record:
-    enable: false
-    list:
-      - code:
-        link:
-
-inject:
-  enable: false
-  css: []
-  js: []
+deploy:
+  type: ''
