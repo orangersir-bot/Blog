@@ -42,14 +42,9 @@ git commit -m "New post"
 git push
 ```
 
->会更新github仓库🤔
+>会更新github仓库🤔对应的Cloudflare也会自动更新，对应的你的网站也会自动更新，也就是说你的Cloudflare一旦确定连接后就不用再管了
 >>tips：记得Ctrl+S！
 >
-
-接下来再去cloudflare---→Workers & pages---→你的项目---→Deployments---→Retry Deplotment
-
-等到部署完，你的博客就会更新啦
-
 
 ## 2.乱序问题
 
@@ -79,4 +74,4 @@ class master : public main;
 由于笨比AI，他给你命令行会默认master，这就导致会建一个没有任何必要的branch，如果只修改main后续也会轻松很多。
 
 ## 5.关于Cloudflare Deployment
-你每次部署都会产生一个历史版本Preview，他会默认把main当成Production，即正式版，直接决定了你的博客长啥样，好像不能随意切换，具体我也没搞明白，这都算小事了，问问哈基米都会
+你每次部署都会产生一个历史版本Preview，他会默认把main当成Production，即正式版，直接决定了你的博客长啥样，好像不能随意切换，具体我也没搞明白，这都算小事了，问问哈基米都会。
