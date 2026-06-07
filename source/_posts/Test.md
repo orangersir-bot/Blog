@@ -61,7 +61,7 @@ git push
 ### 还是记录一下我忙活一个点怎么解决传图片的问题吧
 1. 要在.md上一级文件夹新建images，往里丢图片
 2. 然后修改图片路径为绝对路径 (eg:/images/Belike.png)
->tips：相对路径 image/Belike.png  image在.md所在文件夹
+>tips：相对路径 image/Belike.png  image在.md所在文件夹。绝对路径是绝对好使的，相对路径本地好使。
 >
 
 ## 4.关于github
