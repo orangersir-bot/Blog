@@ -48,7 +48,7 @@ git push
 
 ## 2.乱序问题
 
-![如图](image/Belike.png)
+![如图](/images/Belike.png)
 
   原理应该就是本地的 VS Code 和线上的博客系统（比如 Hexo）使用的是不同Markdown 解析器，而VS Code 的解析器比较宽容。当你的 Markdown 语法格式有一点小瑕疵，Hexo 解析就会错位。
 
