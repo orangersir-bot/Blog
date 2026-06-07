@@ -37,6 +37,9 @@ INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.
 git add .
 git commit -m "xxx" //xxx是用来记录操作记录的命名，eg:new post
 git push
+git add .
+git commit -m "New post"
+git push
 ```
 
 >会更新github仓库🤔
